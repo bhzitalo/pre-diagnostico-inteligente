@@ -2,8 +2,6 @@
 
 > Sistema de triagem inteligente que analisa sintomas e orienta usuários sobre o nível de urgência e próximos passos em saúde.
 
----
-
 ## 📌 Sobre o Projeto
 
 O **PrInt (Pré-diagnóstico Inteligente)** é uma plataforma desenvolvida com o objetivo de auxiliar usuários na avaliação inicial de sintomas de saúde.
@@ -11,8 +9,6 @@ O **PrInt (Pré-diagnóstico Inteligente)** é uma plataforma desenvolvida com o
 Através de um sistema de triagem inteligente, o usuário recebe orientações sobre a gravidade dos sintomas e possíveis próximos passos, promovendo **detecção precoce** e **melhor tomada de decisão**.
 
 > ⚠️ Este sistema não substitui um profissional de saúde.
-
----
 
 ## 🎯 Problema
 
@@ -29,8 +25,6 @@ Isso gera impacto direto em:
 - sobrecarga no sistema de saúde  
 - aumento de custos  
 
----
-
 ## 💡 Solução
 
 O PrInt propõe:
@@ -39,8 +33,6 @@ O PrInt propõe:
 - 🧠 Análise estruturada das informações  
 - 🚦 Classificação de urgência  
 - 📍 Orientação de próximos passos  
-
----
 
 ## ⚙️ Funcionalidades
 
@@ -53,8 +45,6 @@ O PrInt propõe:
 - 📊 Histórico de atendimentos  
 - 📍 Sugestão de encaminhamento  
 
----
-
 ### 🔹 Futuro
 
 - 📍 Geolocalização de unidades de saúde  
@@ -62,8 +52,6 @@ O PrInt propõe:
 - 📈 Dashboard de saúde  
 - 🤖 Integração com IA avançada  
 - ⌚ Integração com dispositivos (wearables)  
-
----
 
 ## 🧠 Como Funciona
 
@@ -76,15 +64,11 @@ O PrInt propõe:
 7. Exibe orientações  
 8. Salva o atendimento no histórico  
 
----
-
 ## 🚦 Classificação de Urgência
 
 - 🟢 **Baixa** → acompanhar sintomas  
 - 🟡 **Moderada** → procurar atendimento  
 - 🔴 **Alta** → buscar atendimento imediato  
-
----
 
 ## 🏗️ Arquitetura
 
@@ -92,8 +76,6 @@ O PrInt propõe:
 - **Backend:** Lógica e processamento  
 - **Banco de Dados:** Armazenamento de dados  
 - **Serviços:** Análise de sintomas e classificação  
-
----
 
 ## 🗄️ Modelo de Dados (Inicial)
 
@@ -113,8 +95,6 @@ O PrInt propõe:
 - resultado  
 - urgencia  
 
----
-
 ## 🔒 Requisitos
 
 ### Funcionais
@@ -130,8 +110,6 @@ O PrInt propõe:
 - Boa performance  
 - Escalabilidade  
 
----
-
 ## ⚠️ Considerações Legais
 
 - O sistema não realiza diagnóstico médico  
@@ -140,16 +118,12 @@ O PrInt propõe:
 
 > ⚠️ Este sistema fornece apenas orientações e não substitui avaliação médica.
 
----
-
 ## 🚀 Tecnologias
 
 - **Backend:** Python (Flask ou FastAPI)  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Banco de Dados:** SQLite / PostgreSQL  
 - **Versionamento:** Git + GitHub  
-
----
 
 ## 📈 Escalabilidade
 
@@ -160,41 +134,21 @@ O projeto pode evoluir para:
 - telemedicina  
 - análise preditiva  
 
----
-
-## 👥 Equipe
+### 👥 Equipe
 
 Projeto desenvolvido por:
 
-- Ítalo  
-- Cintia  
-- Kauan  
-- Stefany  
-- Mateus  
+- Ítalo Souza
+- Cintia Aparecida
+- Kauan Halbert
+- Stefany Colombo  
+- Mateus Henrique
+- João Araujo
 
----
-
-## 📚 Status do Projeto
+### 📚 Status do Projeto
 
 🚧 Em desenvolvimento
 
----
-
-## 📄 Licença
-
-Este projeto é de caráter acadêmico e educacional.
-
----
-
-## 💬 Contato
-
-Caso tenha interesse em contribuir ou saber mais:
-
-- LinkedIn  
-- Email  
-
----
-
-## ⭐ Contribuição
+### ⭐ Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, sugestões ou novas funcionalidades.
