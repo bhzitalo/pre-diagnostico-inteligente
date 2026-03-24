@@ -1,59 +1,40 @@
-# 🧠 PrInt — Pré-diagnóstico Inteligente
+# 🧠 PrInt - Pré Diagnóstico Inteligente
 
-> Sistema de triagem inteligente que analisa sintomas e orienta usuários sobre o nível de urgência e próximos passos em saúde.
+Sistema inteligente para apoio na triagem e pré-diagnóstico de condições, auxiliando usuários com orientações iniciais baseadas em sintomas informados.
 
-## 📌 Sobre o projeto
+---
 
-O **PrInt (Pré-diagnóstico Inteligente)** é um projeto acadêmico desenvolvido com o objetivo de criar uma plataforma digital capaz de auxiliar usuários na avaliação inicial de sintomas de saúde.
+## 📌 Sobre o Projeto
 
-A proposta do sistema é oferecer uma **triagem inteligente**, ajudando o usuário a entender a gravidade dos sintomas e indicando possíveis próximos passos, de forma simples, rápida e acessível.
+O **PrInt (Pré Diagnóstico Inteligente)** é uma aplicação que tem como objetivo analisar sintomas informados pelo usuário e sugerir possíveis condições ou orientações iniciais.
 
-> ⚠️ Este sistema **não substitui diagnóstico médico** nem avaliação profissional de saúde.
+> ⚠️ Este sistema **não substitui um diagnóstico médico**, sendo apenas uma ferramenta de apoio.
+
+---
 
 ## 🎯 Objetivo
 
-Desenvolver uma aplicação capaz de:
+* Auxiliar usuários na identificação inicial de possíveis problemas de saúde
+* Reduzir incertezas antes de buscar atendimento médico
+* Organizar informações para facilitar o atendimento profissional
 
-- coletar sintomas informados pelo usuário
-- realizar uma triagem inicial baseada em regras
-- classificar o nível de urgência
-- orientar o usuário sobre o que fazer a seguir
-- armazenar o histórico de atendimentos
+---
 
-## 💡 Problema que o projeto busca resolver
+## 🚀 Funcionalidades
 
-Muitas pessoas pesquisam sintomas na internet e encontram informações confusas, alarmistas ou imprecisas. Isso pode causar:
+* Cadastro de sintomas
+* Análise inteligente baseada em regras
+* Sugestão de possíveis condições
+* Classificação de urgência
+* Orientações iniciais ao usuário
 
-- atrasos na busca por atendimento médico
-- automedicação
-- preocupação excessiva
-- agravamento de quadros de saúde
+---
 
-O PrInt surge como uma proposta de apoio inicial, oferecendo uma orientação mais estruturada ao usuário.
+## 🧱 Estrutura do Projeto
 
-## ⚙️ Principais funcionalidades
-
-- cadastro e login de usuários
-- perfil básico do usuário
-- chat de triagem
-- análise inicial de sintomas
-- classificação de urgência
-- recomendação de próximos passos
-- histórico de atendimentos
-
-## 🚦 Classificação de urgência
-
-O sistema poderá classificar os sintomas em três níveis:
-
-- 🟢 **Baixa** — acompanhar sintomas
-- 🟡 **Moderada** — procurar atendimento
-- 🔴 **Alta** — buscar atendimento imediato
-
-## 🏗️ Estrutura do projeto
-
-```text
+```bash
 pre-diagnostico-inteligente/
-├── README.md
+│
 ├── docs/
 │   ├── documentacao.md
 │   ├── requisitos.md
@@ -64,6 +45,71 @@ pre-diagnostico-inteligente/
 │   ├── diagrama-arquitetura.md
 │   ├── diagrama-er.md
 │   └── diagrama-fluxo.md
-├── backend/
-├── frontend/
-└── database/
+│
+├── src/ (futuro código)
+└── README.md
+```
+
+---
+
+## 📚 Documentação
+
+Toda a documentação do sistema está organizada na pasta `/docs`.
+
+### 📄 Acesse diretamente:
+
+* 📘 [Documentação Geral](./docs/documentacao.md)
+* 📋 [Requisitos](./docs/requisitos.md)
+* ⚙️ [Regras de Negócio](./docs/regras-de-negocio.md)
+* 👤 [Casos de Uso](./docs/casos-de-uso.md)
+* 🏗️ [Arquitetura](./docs/arquitetura.md)
+
+### 📊 Diagramas
+
+* 🔷 [Diagrama de Casos de Uso](./docs/diagrama-casos-de-uso.md)
+* 🧩 [Diagrama de Arquitetura](./docs/diagrama-arquitetura.md)
+* 🗄️ [Diagrama ER](./docs/diagrama-er.md)
+* 🔄 [Fluxo do Sistema](./docs/diagrama-fluxo.md)
+
+---
+
+## 🛠️ Tecnologias (Planejadas)
+
+* Frontend: HTML, CSS, JavaScript
+* Backend: (a definir)
+* Banco de Dados: (a definir)
+* IA / Regras: Lógica baseada em regras + possíveis evoluções com IA
+
+---
+
+## 🧪 Status do Projeto
+
+🚧 Em fase de documentação e planejamento
+
+---
+
+## 📌 Roadmap
+
+* [x] Levantamento de requisitos
+* [x] Regras de negócio
+* [x] Casos de uso
+* [x] Arquitetura inicial
+* [ ] Modelagem de banco de dados
+* [ ] Desenvolvimento do backend
+* [ ] Desenvolvimento do frontend
+* [ ] Testes
+* [ ] Deploy
+
+---
+
+## 👨‍💻 Autor
+
+**Ítalo Souza**
+📍 Belo Horizonte - MG
+🔗 [GitHub](https://github.com/bhzitalo)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
